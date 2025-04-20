@@ -297,7 +297,7 @@ span {
   .services-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 20px;
     justify-content: center;
     margin-top: 2rem;
   }
@@ -351,7 +351,7 @@ span {
   .projects-box {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 20px;
     justify-content: center;
   }
   
@@ -639,10 +639,14 @@ span {
         font-size: 35px;
       
     }
-
-        
-    
-
-
-
 }
+
+@media (max-width: 768px) {
+    .project-card,
+    .service-box {
+      width: 100%;
+      max-width: 350px;
+      margin: 0 auto;
+    }
+  }
+  
