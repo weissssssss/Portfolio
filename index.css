@@ -546,6 +546,8 @@ span {
     #menu-icon {
         display: block;
         color: orangered;
+        font-size: 30px;
+        cursor: pointer;
         
     }
     .navbar {
